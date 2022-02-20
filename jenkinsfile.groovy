@@ -1,6 +1,4 @@
-properties([ 
-    buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '4'))])
-
+properties([parameters([string(defaultValue: 'Dev', description: 'Please provide the environment to build', name: 'ENVIR')])])
 node {
     stage ('Preparation'){
         timestamps {
