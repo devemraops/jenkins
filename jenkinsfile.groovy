@@ -1,6 +1,6 @@
 node {
     stage ('Preparation'){
-        timestamp {
+        timestamps {
             echo "hello world!"
         }
     }
