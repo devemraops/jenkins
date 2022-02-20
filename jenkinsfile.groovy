@@ -1,4 +1,4 @@
-properties([parameters([string(defaultValue: 'Dev', description: 'Please provide the environment to build', name: 'ENVIR')])])
+properties([parameters([string(defaultValue: 'Apply', description: 'Apply/Destroy', name: 'ACTION'), choice(choices: ['DEV', 'QA', 'STAGE', 'PROD'], name: 'ENVIREMONT')])])
 node {
     stage ('Preparation'){
         timestamps {
