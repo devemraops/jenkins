@@ -4,6 +4,7 @@ node {
     }
     stage ('Build'){
     }
+    echo "l think l am okay with jenkins"
     stage ('Result'){
     }
 }
