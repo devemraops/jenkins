@@ -1,7 +1,7 @@
 node {
     stage ('BUild-VPC'){
         timestamps {
-            echo "hello world!"
+            echo "hello world!-101"
         }
     }
     stage ('Build-RDS'){
