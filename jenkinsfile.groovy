@@ -10,5 +10,8 @@ node {
     }
     stage ('BUild-EMRAH'){
     }
+    stage ('Build-NASIBA') {
+        
+    }
 
 }
