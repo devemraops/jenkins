@@ -1,7 +1,4 @@
-properties([parameters([string(defaultValue: 'which environment you would like to work?', description: '''dev
-qa
-prod
-stage''', name: 'ENVIR')])])
+properties([parameters([string(defaultValue: 'apply', description: 'Should I build or destroy?', name: 'TF_ACTION'), choice(choices: ['dev'], description: 'what environment you want to apply this?', name: 'env')])])
 
 node {
     stage ('pull a repo') {
