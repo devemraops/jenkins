@@ -1,14 +1,15 @@
 node {
-    stage ('Preparation'){
+    stage ('BUild-VPC'){
         timestamps {
             echo "hello world!"
         }
     }
-    stage ('Build'){
+    stage ('Build-RDS'){
     }
     echo "l think l am okay with jenkins"
     stage ('Result'){
     }
-    stage ('notification'){
+    stage ('notification-slack'){
     }
+
 }
