@@ -6,10 +6,10 @@ node {
     }
     stage ('Build-RDS'){
     }
-    echo "l think l am okay with jenkins"
+    echo "l think l am okay with jenkins-101"
     stage ('Result'){
     }
-    stage ('notification-slack'){
+    stage ('notification-slack-101'){
     }
 
 }
