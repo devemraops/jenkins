@@ -6,12 +6,11 @@ node {
     }
     stage ('Build-ALEX'){
     }
-    stage ('Result'){
-    }
     stage ('BUild-EMRAH'){
     }
     stage ('Build-NASIBA') {
-        
+    }
+     stage ('Result'){
     }
 
 }
