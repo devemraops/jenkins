@@ -1,15 +1,8 @@
 node {
-    stage ('BUild-VPC-free'){
-        timestamps {
-            echo "hello world!-101"
-        }
+    stage ('Build'){
     }
-    stage ('Build-RDS-free'){
+    stage ('notification'){
     }
-    echo "l think l am okay with jenkins-101"
     stage ('Result'){
     }
-    stage ('notification-slack-101'){
-    }
-
 }
