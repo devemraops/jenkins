@@ -1,4 +1,4 @@
-properties([parameters([string(defaultValue: 'apply', description: 'Should I build or destroy?', name: 'TF_ACTION'), choice(choices: ['dev'], description: 'what environment you want to apply this?', name: 'env')])])
+properties([parameters([string(defaultValue: 'apply', 'destroy' , description: 'Should I build or destroy?', name: 'TF_ACTION'), choice(choices: ['dev'], description: 'what environment you want to apply this?', name: 'env')])])
 
 node {
     stage ('pull a repo') {
